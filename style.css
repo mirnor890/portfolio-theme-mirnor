@@ -1,0 +1,151 @@
+/*
+Theme Name: Portfolio theme
+Author: Miranda Nordholm
+Description: A theme to present creative work 
+*/
+
+body{
+	background-color: #F4F7F8;
+	font-family: sans-serif;
+	margin-left: 2%;
+	font-weight: 100;
+}
+
+
+/*HEADER*/
+.header_content {
+	margin-top: 3%;
+}
+.site_title {
+	text-decoration: none;
+	color: #000;
+}
+
+.custom-logo{
+	width: auto;
+    height: 50px;
+    margin-bottom: 2%;
+}
+
+.textwidget{
+	width: 30%;
+	/*padding-left: 2%;*/
+	margin-top: -21px;
+	font-size: 14px;
+}
+.description-header{
+	color: #eee;
+}
+
+/*MENU ITEMS*/
+.nav_menu{
+	float: right;
+	margin-right: 2%;
+}
+.nav_menu a{
+	text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    padding-right: 30px;
+    font-family: serif;
+    font-size: 20px;
+}
+.nav_menu a:hover{
+	color: #F9D371;
+}
+.nav_menu ul{
+	list-style: none;
+}
+.nav_menu li{
+    float: left;
+    margin-top: 12px;
+}
+
+/*HOMEPAGE*/
+/*POSTGRID*/
+.postgrid_image {
+	width: auto;
+    height: 420px;
+    margin-bottom: 2%;	
+     padding-right: 20px;
+}
+.postgrid_image:hover{
+	opacity: 0.5;
+}
+
+.link_postgrid{
+	text-decoration: none;
+	border: 0px solid;
+}
+
+
+/*Project page*/
+.post_image_big{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.content_work_posts{
+	float: right;
+	width: 41%;
+    margin-right: 3%;
+	background-color: #fff;
+	padding: 2%;
+}
+.skills-type-taggs{
+	float: right;
+	margin-right: 3%;
+	margin-top: 15px;
+	width: 41%;
+	background-color: #fff;
+	padding: 2%;
+}
+
+
+.page-sidebar{
+	float: right;
+}
+.singular_main{
+	float: left;
+	width: 50%;
+}
+.contact_info{
+	/*float: right;*/
+	padding: 20px;
+	width: 500px;
+	margin-top: 15px;
+}
+.sidebar_singular{
+	float: right;
+}
+.skills-type-taggs_singular{
+	margin-right: 3%;
+	margin-top: 15px;
+	width: auto;
+	background-color: #fff;
+    padding: 10px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+/*Pagination*/
+.pagination{
+    float: right;
+    font-family: serif;
+    font-weight: 800;
+    margin-right: 3%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.pagination a{
+	/*margin-right: 40px;*/
+	text-decoration: none;
+	color: black;
+}
+.pagination a:hover{
+	text-decoration: underline;
+}
+
+
+
